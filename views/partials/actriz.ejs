@@ -1,0 +1,20 @@
+<div class = "container">
+<table class="table table-striped table-dark">
+    <thead class="thead-light">
+    <tr>
+        <th scope="col">ID</th>
+        <th scope="col">PELICULA</th>
+        <th scope="col">ACTRICES</th>
+    </tr>
+    </thead>
+    <tbody >
+<%  Allfilmoteca.map((A) =>{ %>
+    <tr>
+    <th scope="row"><%- A.idfilms %></th>
+    <td><%- A.titulo %></td>
+    <td><%- A.actrices %></td>
+    </tr>
+<% }) %>
+    </tbody>
+</table>
+</div>

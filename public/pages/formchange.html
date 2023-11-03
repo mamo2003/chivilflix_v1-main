@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex,nofollow">
+<meta name="keywords" content="peliculas,series,temporadas, suspenso, accion,terror,comedia,cortometraje,actores, trillers, trailers,ciencia ficcion, hechos veridicos">
+    <title>Chivilflix</title> 
+    <link rel="stylesheet"  type="text/css" href="/public/style/style.css" >
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+</head>
+<body>
+<header class = "header">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" id="chivilflix" href="/">Chivilflix</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><button class="btnav"><a class="nav-link active" aria-current="page" href="/films" >CATALOGO</a></button></li>
+                        <li class="nav-item"><button class="btnav"><a class="nav-link active" aria-current="page"  href="/films/buscar/t" >FILM</a></button></li>
+                        <li class="nav-item"><button class="btnav"><a class="nav-link active" aria-current="page"  href="/films/id/4" >ID </a></button></li>
+                        <li class="nav-item"><button class="btnav"><a class="nav-link active" aria-current="page"  href="/films/categoria/pelicula" >CATEGORIA</a></button></li>
+                        <li class="nav-item"><button class="btnav"><a  class="nav-link active" aria-current="page" href="/films/genero/aventura" >GENERO</a></button></li>
+                        <li class="nav-item"><button class="btnav"><a class="nav-link active" aria-current="page"  href="/films/reparto/scar" >REPARTO</a></button></li>
+                        <li class="nav-item"><button class="btnav"><a class="nav-link active" aria-current="page"  href="/films/trailers/" >TRAILERS</a></button></li>
+                        <li class="nav-item"><button class="btnav"><a class="nav-link active" aria-current="page"  href="/films/actrices/" >ALL ACTRICES</a></button></li>
+                        <li class="nav-item"><button class="btnav"><a class="nav-link active" aria-current="page"  href="/public/pages/formcreate.html" >CARGA FILM</a></button></li>
+                        <li class="nav-item"><button class="btnav"><a class="nav-link active" aria-current="page"  href="/public/pages/formchange.html" >MODIFICAR FILM</a></button></li>
+                        <li class="nav-item"><button class="btnav"><a class="nav-link active" aria-current="page"  href="/public/pages/formdelete.html" >ELIMINAR FILM</a></button></li>
+                    </ul>
+                    </div>
+        </div>
+    </nav>
+</header>
+<main class = "main2">
+    <h1 class=" construccion">EN CONSTRUCCION</h1>
+  <h5 class=" construccion">Proximamente estara disponible esta opcion </h5>
+<form class="row g-2 needs-validation" id="formularios" validate method="post" page="/controllers/createCode.js">
+  <div class="row col-md-10">
+          <label for="validationCustom0" class="form-label">ID</label>
+      <input type="text" class="form-control" id="validationCustom0" placeholder= "ingresa el ID" required>
+      <div class="valid-feedback">
+      bien echo!
+    </div>
+      <label for="validationCustom01" class="form-label">poster</label>
+      <input type="text" class="form-control" id="validationCustom01" placeholder= "/poster.jpg" required>
+      <div class="valid-feedback">
+      bien echo!
+    </div>
+    <label for="validationCustom02" class="form-label">titulo</label>
+    <input type="text" class="form-control" id="validationCustom02" placeholder= "nombre del film"  required>
+    <div class="valid-feedback">
+      bien echo!
+    </div>
+    <label for="validationCustom03" class="form-label">categorias</label>
+    <input type="text" class="form-control" id="validationCustom03" placeholder= "categoria"  required>
+    <div class="valid-feedback">
+      bien hecho!
+    </div>
+    <label for="validationCustom04" class="form-label">genero</label>
+    <input type="text" class="form-control" id="validationCustom04" placeholder= "genero" required>
+    <div class="valid-feedback">
+      bien hecho!
+    </div>
+    <label for="validationCustom05" class="form-label">resumen</label>
+    <input type="text" class="form-control" id="validationCustom05" placeholder= "resumen: nombre de actores y actrices" required>
+    <div class="valid-feedback">
+      bien hecho!
+    </div>
+    <label for="validationCustom06" class="form-label">temporadas</label>
+    <input type="text" class="form-control" id="validationCustom06" placeholder= "temporadas ej: 1,4,8,20" required>
+    <div class="valid-feedback">
+      bien hecho!
+    </div>
+    <label for="validationCustom07" class="form-label">reparto</label>
+    <input type="text" class="form-control" id="validationCustom07" placeholder= "reparto:nombre de actores y actrices" required>
+    <div class="valid-feedback">
+      bien hecho!
+    </div>
+    <label for="validationCustom08" class="form-label">trailer</label>
+    <input type="text" class="form-control" id="validationCustom08" placeholder= "trailer" required>
+    <div class="valid-feedback">
+      bien echo!
+    </div>
+    <button id="botonsub" class="btn btn-primary" type="submit">MODIFICAR</button>
+  </div>
+</form>
+</main>
+<footer >
+<div >
+    <div class="spacer">
+    <div class="container d-flex justify-content-center py-2">
+        <h8 class="my-auto">© MaximoStore 2023-Todos los Derechos Reservados</h8>
+    </div>
+    </div>
+</div>
+</footer>
+</body>
+</html>

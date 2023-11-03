@@ -1,0 +1,59 @@
+main{background-color: rgb(54, 52, 52);}
+.main2{background-color: rgb(54, 52, 52);height:800px;}
+#chivilflix{color:crimson; font-weight: 900;}
+.btnav{ background-color: rgb(54, 52, 52);;height:60px;
+    color:#fff;
+    border: #240a11;
+    border-radius: 20px;
+  transition-duration: 0.6s;
+}
+.btnav:hover {
+  background-color: rgb(148, 147, 147); 
+  color: rgb(17, 17, 17)!important;
+}
+#formularios{justify-content: center;}
+#botonsub{justify-items: center; margin-top: 10px; font-size: x-large;}
+.header {padding-bottom: 70px;z-index: 1999;}
+.card{background-color: rgb(223, 218, 200); width: 18 rem;   padding-top: 10px;margin-bottom: 10px; height: 800px;border-radius: 25% 0% 25% 25%;}
+#pk{height: 580px;}
+.imgcard{ height: 250px;border-radius: 25% 0% 25% 0%;}
+.card-title{text-align: center; padding-top: 2px;}
+.volver{font-size: large;text-align: center;}
+.spacer{background-color: rgb(70, 68, 68);}
+.my-auto{color: #fff;}
+.card :hover{box-shadow:rgba(211, 212, 186, 0.876) 0px 8px 24px;}
+.actriz{padding: 4px 4px;}
+.construccion{justify-content:center;
+    color:gold;
+text-align: center;
+font-weight: 900;}
+#trailer{height: 500px !important;}
+/*=========ace=============
+    404 page
+=======================*/
+
+.page_404{ padding:40px 0; background: #dededf;
+font-family: 'Arvo', serif;height: 37rem;
+}
+
+.page_404  img{ width:80%;}
+
+.four_zero_four_bg{
+
+
+.four_zero_four_bg h1{
+font-size:60px;
+}
+
+.four_zero_four_bg h3{
+font-size:80px;
+}
+.link_404{		 
+	color: #fff!important;
+    padding: 150px 5px;
+    background: #240a11;
+    margin: 20px 0;
+    display: inline-block;}
+	.contant_box_404{ margin-top:-20px;
+}
+}
